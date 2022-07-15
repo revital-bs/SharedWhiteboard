@@ -1,0 +1,66 @@
+﻿@page
+    <div class="container">
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-2">User</div>
+            <div class="col-4"><input type="text" id="userName" /></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">Group</div>
+            <div class="col-4"><input type="text" id="groupName" /></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">Message</div>
+            <div class="col-4"><input type="text" id="messageInput" /></div>
+        </div>
+
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-6">
+                <input type="button" id="joinButton" value="Join group" />
+            </div>
+        </div>
+
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-6">
+                <input type="button" id="sendButton" value="Send Message" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <ul id="messagesList"></ul>
+            </div>
+        </div>
+
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div id="bar">
+                <div class="color" style="background-color: black;"></div>
+                <div class="color" style="background-color: red;"></div>
+                <div class="color" style="background-color: orange;"></div>
+                <div class="color" style="background-color: magenta;"></div>
+                <div class="color" style="background-color: blue;"></div>
+                <div class="color" style="background-color: green;"></div>
+            </div>
+        </div>
+
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div id="canvframe">
+                <canvas id="maincanv" class="canva" width="560" height="360" style="z-index: 100;"></canvas>
+            </div>
+        </div>
+    </div>
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/whiteboard.js"></script>

@@ -1,0 +1,15 @@
+.canva {
+    border: 1px solid black;
+    width: 560px;
+    height: 360px;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+
+.color{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
